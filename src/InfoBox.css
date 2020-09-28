@@ -1,0 +1,46 @@
+.infoBox {
+    flex: 1;
+    margin: 0.5rem;
+  }
+
+  .infoBox:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .infoBox--red {
+    border-color: red;
+  }
+
+  .infoBox--selected {
+    border-right: 10px solid greenyellow;
+  }
+
+  .infoBox--selected--red {
+    border-right: 10px solid #cc1034;
+  }
+
+  .infoBox__content {
+    text-align: left;
+  }
+
+  .infoBox__cases--green {
+    color: lightgreen !important;
+  }
+
+  .infoBox:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .infoBox__cases {
+    color: #cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .infoBox__total {
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    margin-top: 15px !important;
+  }
