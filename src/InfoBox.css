@@ -1,6 +1,7 @@
 .infoBox {
     flex: 1;
     margin: 0.5rem;
+    background-color: red;
   }
 
   .infoBox:not(:last-child) {
@@ -17,6 +18,8 @@
 
   .infoBox--selected--red {
     border-right: 10px solid #cc1034;
+    background: lightpink;
+    /* style: lavender; */
   }
 
   .infoBox__content {
